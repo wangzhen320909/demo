@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+    <category name="jdbc" description="数据库相关配置">
+        <!--<item name="driverName" value="com.mysql.jdbc.Driver" description="驱动名称"/>
+        <item name="url"
+              value="jdbc:mysql://192.168.1.25:3306/wifi-order?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
+              description="url"/>
+        <item name="username" value="root" description="数据库用户名"/>
+        <item name="password" value="Yl888888" description="密码"/>-->
+         <item name="driverName" value="oracle.jdbc.driver.OracleDriver" description="驱动名称"/>
+        <item name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" description="url"/>
+        <item name="username" value="system" description="用户名"/>
+        <item name="password" value="ADMIN" description="密码"/>
+    </category>
+    <category name="projectInfo" description="项目信息">
+        <item name="projectName" value="boss-server" description="项目名"/>
+        <item name="menuNameRemark" value="运用管理" description="父菜单名称"/>
+    </category>
+
+    <category name="base" description="基础配置">
+<!--        <item name="database" value="mysql" description="数据库"/>-->
+             <item name="database" value="oracle" description="数据库"/>
+        <item name="schemaPattern" value="root" description="每个用户对应一个同名的schema"/>
+        <item name="baseDir" value="./generator/code" description="文件存放的根目录"/>
+    </category>
+
+    <category name="entity" description="实体配置">
+        <item name="package" value="com.yl.model.bossserver.po" description="包路径"/>
+        <item name="path" value="/model/po" description="实体存放的路径，相对于baseDir"/>
+    </category>
+
+    <category name="dao" description="dao配置">
+        <item name="package" value="com.yl.bossserver.mapper" description="包路径"/>
+        <item name="path" value="/mapper" description="dao存放的路径，相对于baseDir"/>
+    </category>
+    <category name="mapperXml" description="mapperXml文件配置">
+        <item name="path" value="/mapper/mapper" description="mapper.xml存放的路径，相对于baseDir"/>
+    </category>
+    <category name="vo" description="vo文件配置">
+        <item name="package" value="com.yl.model.bossserver.vo" description="包路径"/>
+        <item name="path" value="/model/vo" description="vo存放的路径，相对于baseDir"/>
+    </category>
+    <category name="dto" description="dto文件配置">
+        <item name="package" value="com.yl.model.bossserver.dto" description="包路径"/>
+        <item name="path" value="/model/dto" description="dto存放的路径，相对于baseDir"/>
+    </category>
+    <category name="service" description="service配置">
+        <item name="package" value="com.yl.bossserver.service" description="包路径"/>
+        <item name="path" value="/service" description="service存放的路径，相对于baseDir"/>
+    </category>
+
+    <category name="serviceImpl" description="serviceImpl配置">
+        <item name="package" value="com.yl.bossserver.service.impl" description="包路径"/>
+        <item name="path" value="/service/impl" description="实体存放的路径，相对于baseDir"/>
+    </category>
+    <category name="controller" description="controller配置">
+        <item name="package" value="com.yl.bossserver.controller" description="包路径"/>
+        <item name="path" value="/controller" description="实体存放的路径，相对于baseDir"/>
+    </category>
+    <category name="ui" description="ui配置">
+        <item name="package" value="com.yl.bossserver.ui" description="包路径"/>
+        <item name="path" value="/ui" description="ui存放的路径，相对于baseDir"/>
+    </category>
+
+</system>

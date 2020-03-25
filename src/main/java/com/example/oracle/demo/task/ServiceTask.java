@@ -16,7 +16,7 @@ import java.util.List;
  * 央联支付有限公司
  * @since 2018-04-23
  * @version V1.0
- * @author  qiujian
+ * @author  wzg
  * @desc
  **/
 @Slf4j

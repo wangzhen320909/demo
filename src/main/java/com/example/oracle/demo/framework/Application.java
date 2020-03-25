@@ -21,7 +21,7 @@ import java.util.*;
  * 央联支付有限公司
  * @since 2018-05-26
  * @version V1.0
- * @author  qiujian
+ * @author  wzg
  * @desc   应用程序类
  **/
 @Slf4j

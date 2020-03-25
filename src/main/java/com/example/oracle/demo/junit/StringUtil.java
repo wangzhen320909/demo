@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * 央联支付有限公司
  *
- * @author qiujian
+ * @author wzg
  * @version V1.0
  * @desc
  * @since 2018-05-30

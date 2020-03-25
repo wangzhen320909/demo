@@ -7,7 +7,7 @@ import com.example.oracle.demo.task.*;
  * 央联支付有限公司
  * @since 2018-04-23
  * @version V1.0
- * @author  qiujian
+ * @author  wzg
  * @desc   程序入口
  **/
 public class CodeMakerApplication {

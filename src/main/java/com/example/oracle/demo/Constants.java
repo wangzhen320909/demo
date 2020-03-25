@@ -4,7 +4,7 @@ package com.example.oracle.demo;
  * 央联支付有限公司
  * @since 2018-04-23
  * @version V1.0
- * @author  qiujian
+ * @author  wzg
  * @desc   常量类
  **/
 public class Constants {
